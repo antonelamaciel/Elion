@@ -4,24 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#7447e1">
-    <title>Equipos en stock</title>
+    <title>ELIONTech · Equipos en stock</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <main class="catalog">
-        <header class="brand-header">
-            <img src="logo/logo.png" alt="ELIONTech · Apple house importados">
-        </header>
-        <section class="inventory">
-            <div class="section-heading"><div><p class="eyebrow">CATÁLOGO</p><h1>Equipos <span>en stock</span></h1></div><span class="stock-note"><i></i> STOCK ACTUAL</span></div>
-            <div class="phone-list">
-                <article class="phone-card"><div class="phone-icon"><span></span></div><div class="phone-info"><h3>iPhone 16 Pro</h3><p>128 GB · Negro</p></div><span class="status available">Disponible</span></article>
-                <article class="phone-card is-sold-out"><div class="phone-icon"><span></span></div><div class="phone-info"><h3>iPhone 11</h3><p>64 GB · Amarillo</p></div><span class="status sold-out">No disponible</span></article>
-                <article class="phone-card is-sold-out"><div class="phone-icon"><span></span></div><div class="phone-info"><h3>iPhone 12</h3><p>64 GB · Negro</p></div><span class="status sold-out">No disponible</span></article>
-                <article class="phone-card is-sold-out"><div class="phone-icon"><span></span></div><div class="phone-info"><h3>iPhone 13 Pro</h3><p>128 GB · Gold</p></div><span class="status sold-out">No disponible</span></article>
+        <header class="brand-header"><img src="logo/logo.png" alt="ELIONTech · Apple house importados"></header>
+        <section class="catalog-head">
+            <div class="meta-row"><span>APPLE DEVICES</span><span class="drop-label">DROP / 01</span></div>
+            <h1>Equipos<br><em>en stock.</em></h1>
+            <p>Selección actual de ELIONTech.</p>
+        </section>
+        <section class="featured" aria-labelledby="featured-name">
+            <div class="featured-top"><span class="live-dot">DISPONIBLE AHORA</span><span>01 / 01</span></div>
+            <div class="featured-content">
+                <div class="device-stage" aria-hidden="true"><div class="device-orbit orbit-one"></div><div class="device-orbit orbit-two"></div><div class="phone-render"><i></i><b></b></div></div>
+                <div class="featured-info"><p class="overline">EL ELEGIDO</p><h2 id="featured-name">iPhone 16<br>Pro</h2><p>128 GB · Negro</p><span class="stock-pill"><i></i> En stock</span></div>
             </div>
         </section>
-        <footer><a href="https://instagram.com/eliontech.iphone/" target="_blank" rel="noreferrer">Consultar y reservar por Instagram <span>→</span></a></footer>
+        <section class="other-stock" aria-labelledby="other-stock-title">
+            <div class="list-title"><h2 id="other-stock-title">Otros equipos</h2><span>No disponibles</span></div>
+            <div class="phone-list">
+                <article class="phone-card"><div class="mini-phone"><i></i></div><div><h3>iPhone 11</h3><p>64 GB · Amarillo</p></div><span class="unavailable">No disponible</span></article>
+                <article class="phone-card"><div class="mini-phone"><i></i></div><div><h3>iPhone 12</h3><p>64 GB · Negro</p></div><span class="unavailable">No disponible</span></article>
+                <article class="phone-card"><div class="mini-phone"><i></i></div><div><h3>iPhone 13 Pro</h3><p>128 GB · Gold</p></div><span class="unavailable">No disponible</span></article>
+            </div>
+        </section>
+        <footer><a href="https://instagram.com/eliontech.iphone/" target="_blank" rel="noreferrer"><span>Consultá por Instagram</span><b>@eliontech.iphone</b><i>→</i></a></footer>
     </main>
 </body>
 </html>
