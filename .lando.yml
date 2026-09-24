@@ -1,0 +1,8 @@
+name: mipracticacompleta
+recipe: lamp
+config:
+  webroot: public
+  php: 8.4
+services:
+  node:
+    type: node:22
